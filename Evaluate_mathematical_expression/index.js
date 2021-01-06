@@ -54,4 +54,4 @@ const calc = (expression) => {
   return parseFloat(expression);
 }
 
-console.log(calc(`123.45*(678.90 / (-2.5+ 11.5)-(80 -19) *33.25) / 20 + 11`))
+module.exports = calc;

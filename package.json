@@ -1,0 +1,22 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youth-design/codewars_kata_solutions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youth-design/codewars_kata_solutions/issues"
+  },
+  "homepage": "https://github.com/youth-design/codewars_kata_solutions#readme",
+  "devDependencies": {
+    "jest": "26.4.2"
+  }
+}

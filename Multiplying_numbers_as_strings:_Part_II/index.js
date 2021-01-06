@@ -91,4 +91,4 @@ function multiply(n, o){
   return result;
 }
 
-console.log(multiply('61446827610941761627400078111648708712234291536065885283', '-16297664394775948527793469686400'));
+module.exports = multiply;
