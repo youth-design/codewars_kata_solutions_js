@@ -6,3 +6,9 @@
 > [Battleship field validator](https://www.codewars.com/kata/52bb6539a4cf1b12d90005b7/train/javascript)
 
 > [Calculate Variance](https://www.codewars.com/kata/5266fba01283974e720000fa/javascript)
+
+> [Line Safari - Is that a line?](https://www.codewars.com/kata/59c5d0b0a25c8c99ca000237) ` !!! BAD SOLUTION !!!`
+
+> [Simple assembler interpreter](https://www.codewars.com/kata/58e24788e24ddee28e000053/solutions/javascript)
+
+> [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
