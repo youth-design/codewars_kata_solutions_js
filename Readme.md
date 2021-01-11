@@ -12,3 +12,5 @@
 > [Simple assembler interpreter](https://www.codewars.com/kata/58e24788e24ddee28e000053/solutions/javascript)
 
 > [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
+
+> [Assembler interpreter (part II)](https://www.codewars.com/kata/58e61f3d8ff24f774400002c/javascript)
