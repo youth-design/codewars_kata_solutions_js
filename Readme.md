@@ -16,3 +16,5 @@
 > [Assembler interpreter (part II)](https://www.codewars.com/kata/58e61f3d8ff24f774400002c/javascript)
 
 > [Breadth First Tree Traversal (BETA)](https://www.codewars.com/kata/56c69bdd7c84beb576000072)
+
+> [Binary Tree Serpentine Traversal](https://www.codewars.com/kata/5268988a1034287628000156) ` !!! Не проходит один тесткейс !!!`
