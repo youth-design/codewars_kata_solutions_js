@@ -1,4 +1,5 @@
 const serpentineTree = (tree, que = tree ? [tree] : [], n = 1, order = false) => {
+    que = JSON.parse( JSON.stringify(que) );
     if(que.filter(i => !i.solved).length) {
         const item = que.filter(i => !i.solved)[0];
 
