@@ -18,3 +18,5 @@
 > [Breadth First Tree Traversal (BETA)](https://www.codewars.com/kata/56c69bdd7c84beb576000072)
 
 > [Binary Tree Serpentine Traversal](https://www.codewars.com/kata/5268988a1034287628000156)
+
+> [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e)
