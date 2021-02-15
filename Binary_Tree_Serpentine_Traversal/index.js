@@ -3,6 +3,7 @@ const serpentineTree = (tree, que = tree ? [tree] : [], n = 1, order = false) =>
     if(que.filter(i => !i.solved).length) {
         const item = que.filter(i => !i.solved)[0];
 
+
         if(n === que.filter(i => !i.solved).length) {
             if(order) {
                 const tmp = que.slice(n * -1).reverse();
@@ -16,9 +17,13 @@ const serpentineTree = (tree, que = tree ? [tree] : [], n = 1, order = false) =>
 
         if(item.left) {
             que.push(item.left);
+        } else {
+            n -= 1;
         }
         if(item.right) {
             que.push(item.right);
+        } else {
+            n -= 1;
         }
 
         return serpentineTree(tree, que, n, order);
