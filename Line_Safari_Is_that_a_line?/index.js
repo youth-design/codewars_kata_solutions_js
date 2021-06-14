@@ -83,7 +83,7 @@ const line = grid => {
                     return false;
                 }
                 direction = 0;
-                continue;
+
             } else if(getGridValue(grid, playerPos[0], playerPos[1] - 1) && direction !== 1) {
                 grid[playerPos[0]][playerPos[1]] = null;
                 playerPos = [playerPos[0], playerPos[1] - 1] ;
@@ -91,7 +91,7 @@ const line = grid => {
                     return false;
                 }
                 direction = 1;
-                continue;
+
             } else if(getGridValue(grid, playerPos[0] + 1, playerPos[1]) && direction !== 0) {
                 grid[playerPos[0]][playerPos[1]] = null;
                 playerPos = [playerPos[0] + 1, playerPos[1]];
@@ -99,7 +99,7 @@ const line = grid => {
                     return false;
                 }
                 direction = 0;
-                continue;
+
             } else if(getGridValue(grid, playerPos[0], playerPos[1] + 1) && direction !== 1) {
                 grid[playerPos[0]][playerPos[1]] = null;
                 playerPos = [playerPos[0], playerPos[1] + 1] ;
@@ -108,7 +108,7 @@ const line = grid => {
                 }
                 direction = 1;
 
-                continue;
+
             } else {
                 return false;
             }
@@ -117,12 +117,12 @@ const line = grid => {
                 grid[playerPos[0]][playerPos[1]] = null;
                 playerPos = [playerPos[0], playerPos[1] - 1];
                 direction = 1;
-                continue;
+
             } else if (getGridValue(grid, playerPos[0], playerPos[1] + 1) ) {
                 grid[playerPos[0]][playerPos[1]] = null;
                 playerPos = [playerPos[0], playerPos[1] + 1];
                 direction = 1;
-                continue;
+
             } else {
                 return false;
             }
@@ -131,12 +131,12 @@ const line = grid => {
                 grid[playerPos[0]][playerPos[1]] = null;
                 playerPos = [playerPos[0] - 1, playerPos[1]];
                 direction = 0;
-                continue;
+
             } else if (getGridValue(grid, playerPos[0] + 1, playerPos[1]) ) {
                 grid[playerPos[0]][playerPos[1]] = null;
                 playerPos = [playerPos[0] + 1, playerPos[1]];
                 direction = 0;
-                continue;
+
             } else {
                 return false;
             }
