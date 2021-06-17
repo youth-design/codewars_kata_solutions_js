@@ -91,4 +91,4 @@ function multiply(n, o){
   return result;
 }
 
-module.exports = multiply;
+module.exports = { multiply };

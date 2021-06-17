@@ -11,4 +11,4 @@ const variance = (numbers) => {
     return result;
 };
 
-module.exports = variance;
+module.exports = { variance };

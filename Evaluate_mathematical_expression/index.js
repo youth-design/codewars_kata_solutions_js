@@ -54,4 +54,4 @@ const calc = (expression) => {
   return parseFloat(expression);
 }
 
-module.exports = calc;
+module.exports = { calc };

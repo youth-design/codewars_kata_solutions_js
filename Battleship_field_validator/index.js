@@ -76,4 +76,4 @@ function validateBattlefield(field) {
   return !Object.values(neededShips).filter(i => !!i).length;
 }
 
-module.exports = validateBattlefield;
+module.exports = { validateBattlefield };
