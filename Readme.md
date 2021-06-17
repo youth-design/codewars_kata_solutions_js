@@ -22,3 +22,5 @@
 > [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e)
 
 > [Restaurant Tables](https://www.codewars.com/kata/598c1bc6a04cd3b8dd000012)
+
+> [Shared Words](https://www.codewars.com/kata/60c9fb4f4875c5003dd57747)
