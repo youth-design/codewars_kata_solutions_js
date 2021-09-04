@@ -115,7 +115,6 @@ describe("SQL tests", function() {
         Test.assertDeepEquals(query().select(professionCount).from(persons).groupBy(profession).execute(),  [["teacher",3],["scientific",3],["politician",1]]);
 
         function naturalCompare(value1, value2) {
-            console.log(value1);
             if (value1 < value2) {
                 return -1;
             } else if (value1 > value2) {

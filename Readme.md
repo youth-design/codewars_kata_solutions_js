@@ -24,3 +24,5 @@
 > [Restaurant Tables](https://www.codewars.com/kata/598c1bc6a04cd3b8dd000012)
 
 > [Shared Words](https://www.codewars.com/kata/60c9fb4f4875c5003dd57747)
+
+> [Functional SQL](https://www.codewars.com/kata/545434090294935e7d0010ab) ` !!! NEED TO REFACTOR !!! `

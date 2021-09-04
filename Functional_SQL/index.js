@@ -7,15 +7,25 @@ const query = function() {
 
     const methods = {
         select: (cb) => {
+            if(callMethods['select']) {
+                throw new Error('Duplicate SELECT');
+            }
             callMethods['select'] = () => rawData.map(cb ? cb :  i => i);
             return methods;
         },
         from: (...args) => {
+            if(callMethods['from']) {
+                throw new Error('Duplicate FROM');
+            }
             callMethods['from'] = () => {
                 if(args.length === 1) {
                     rawData = args[0];
                 } else {
-                    rawData = [...args];
+                    for(let i = 0; i < args[0].length; i++) {
+                        for(let j = 0; j < args[1].length; j++) {
+                            rawData.push([args[0][i], args[1][j]]);
+                        }
+                    }
                 }
             };
             return methods;
@@ -30,6 +40,9 @@ const query = function() {
             return methods;
         },
         orderBy: cb => {
+            if(callMethods['orderBy']) {
+                throw new Error('Duplicate ORDERBY');
+            }
             callMethods['orderBy'] = () => rawData.sort(cb);
             return methods;
         },
@@ -38,6 +51,9 @@ const query = function() {
             return methods;
         },
         groupBy: (...args) => {
+            if(callMethods['groupBy']) {
+                throw new Error('Duplicate GROUPBY');
+            }
             callMethods['groupBy'] = () => {
                 const res = [];
                 rawData.map(item => {
