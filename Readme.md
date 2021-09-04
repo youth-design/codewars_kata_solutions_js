@@ -26,3 +26,5 @@
 > [Shared Words](https://www.codewars.com/kata/60c9fb4f4875c5003dd57747)
 
 > [Functional SQL](https://www.codewars.com/kata/545434090294935e7d0010ab) ` !!! NEED TO REFACTOR !!! `
+
+> [Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95)
