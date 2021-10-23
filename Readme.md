@@ -28,3 +28,5 @@
 > [Functional SQL](https://www.codewars.com/kata/545434090294935e7d0010ab) ` !!! NEED TO REFACTOR !!! `
 
 > [Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95)
+
+> [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c)
