@@ -30,3 +30,5 @@
 > [Common Denominators](https://www.codewars.com/kata/54d7660d2daf68c619000d95)
 
 > [Are they the "same"?](https://www.codewars.com/kata/550498447451fbbd7600041c)
+
+> [Create Phone Number](https://www.codewars.com/kata/525f50e3b73515a6db000b83)
